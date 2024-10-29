@@ -1,11 +1,9 @@
 ---
-title: First post
+title: Pages installation
 date: 2024-10-29 00:00:00 +0800
 categories: [Intro]
 tags: [pages_installation]     # TAG names should always be lowercase
 ---
-
-# Intro:
 
 I realize that my setup might be a bit unncessarily complicated, so the installation of pages and the local configuration of my environment was particularly troublesome. 
 
