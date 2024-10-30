@@ -8,7 +8,7 @@ order: 4
 
 ## ABOUT ME
 <div style="display: flex; align-items: flex-start;">
-    <img align="right" src="https://avatars.githubusercontent.com/u/59510395?s=400&u=49d6366f5d1602a5a42bb0d155ed704955fb67ed&v=4" width="150" height="150" style="margin-right: 20px;"/>
+    <img align="right" src="https://avatars.githubusercontent.com/u/59510395?v=4" width="150" height="150" style="margin-right: 20px;"/>
     <div>
         👋 Hello there and welcome to Misho's GitHub portfolio page!  
         🔍 I'm currently on a journey to become proficient in Quality Assurance (QA) and seeking opportunities in the field.  
