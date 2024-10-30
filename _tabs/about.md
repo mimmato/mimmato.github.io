@@ -8,7 +8,6 @@ order: 4
 
 ## ABOUT ME
 <div style="display: flex; align-items: flex-start;">
-    <img align="right" src="https://gratisography.com/wp-content/uploads/2024/10/gratisography-cool-cat-800x525.jpg" width="150" height="150" style="margin-right: 20px;"/>
     <div>
         👋 Hello there and welcome to Misho's GitHub portfolio page!  
         🔍 I'm currently on a journey to become proficient in Quality Assurance (QA) and seeking opportunities in the field.  
