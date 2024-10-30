@@ -7,9 +7,6 @@ order: 4
 > Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
 {: .prompt-tip }
 
-<!DOCTYPE html>
-<html>
-<body>
 
 # My QA Portfolio                
 ## ABOUT ME
@@ -82,5 +79,3 @@ Each branch of the repository will have its README.md file updated accordingly w
 
 </details>
 
-</body>
-</html>
