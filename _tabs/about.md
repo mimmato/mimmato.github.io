@@ -1,3 +1,8 @@
+---
+layout: default
+title: About
+---
+
 # My QA Portfolio
 
 ## ABOUT ME
