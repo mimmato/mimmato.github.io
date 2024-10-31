@@ -7,14 +7,14 @@ tags: [api, api testing]     # TAG names should always be lowercase
 
 ## APIs and API testing
 
-1. [What is an API]()
-   - 1.1 [Short History of APIs]()
-   - 1.2 [Usage and application]()
-   - 1.3 [REST]()
+1. [What is an API]
+   - 1.1 [Short History of APIs]
+   - 1.2 [Usage and application]
+   - 1.3 [REST]
 
 
-2. [APIs in Software Testing]()
-   - 2.1 [Node.js + Express API]()
+2. [APIs in Software Testing]
+   - 2.1 [Node.js + Express API]
    - 2.2
 
 Test
