@@ -4,9 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-![Hero image](/assets/img/githubProfilePhoto.jpg)
+![Hero image](/assets/img/circular_image.webp)
 
 ## GETTING STARTED 🚀
-The purpose of this page is to demonstrate knowledge in the field of software testing and quality assurance. I will be updating the contents over time as I learn new skills.
-
-## TABLE OF CONTENTS
+The idea of this page is to share information about projects that I am working on, but to also be used as a recap about different technologies that I come across.
