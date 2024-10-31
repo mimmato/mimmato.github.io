@@ -14,7 +14,7 @@ tags: [api, api testing]     # TAG names should always be lowercase
 
 
 2. [APIs in Software Testing]()
-   - 2.1 [Node.js + Express API](https://github.com/mimmato/portfolio/tree/nodeJS_Express_API)
+   - 2.1 [Node.js + Express API]()
    - 2.2
 
 Test
