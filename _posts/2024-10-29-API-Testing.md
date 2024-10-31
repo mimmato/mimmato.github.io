@@ -17,4 +17,5 @@ tags: [api, api testing]     # TAG names should always be lowercase
    - 2.1 [Node.js + Express API]
    - 2.2
 
-Test
+## APIs
+Application Programming Interface (API) is a technology used to facilitate communication or translate language between two distinct applications. APIs are widely used across various industries, with applications that vary based on accessibility, functionality, purpose, design/architecture, and more. APIs can also be categorized into two main groups based on their usage within an organization: Private and Public.
