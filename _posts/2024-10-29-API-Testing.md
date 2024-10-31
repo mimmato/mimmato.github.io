@@ -1,7 +1,7 @@
 ---
 title: APIs in Software Testing
 date: 2024-10-30 00:00:00 +0800
-categories: [Intro]
+categories: [Learning]
 tags: [api, api testing]     # TAG names should always be lowercase
 ---
 
