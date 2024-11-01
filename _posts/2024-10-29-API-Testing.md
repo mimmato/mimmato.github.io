@@ -5,14 +5,22 @@ categories: [Learning]
 tags: [api, api testing]     # TAG names should always be lowercase
 ---
 
-## APIs and API testing
+# Table of Contents
 
-1. What is an API
-   - 1.1 Short History of APIs
-   - 1.2 Usage and application
-   - 1.3 REST
-
-2. APIs in Software Testing
+1. [APIs](#apis)
+   - [Short History of APIs](#short-history-of-apis)
+   - [REST](#rest)
+   - [Components of a REST API](#components-of-a-rest-api)
+     - [1. Resources (Endpoints)](#1-resources-endpoints)
+     - [2. HTTP Methods](#2-http-methods)
+     - [3. Headers](#3-headers)
+     - [4. Status Codes](#4-status-codes)
+     - [5. Data (Payload)](#5-data-payload)
+     - [6. Query Parameters and Path Parameters](#6-query-parameters-and-path-parameters)
+     - [7. Authentication and Authorization](#7-authentication-and-authorization)
+     - [8. Documentation](#8-documentation)
+2. [Information API Creators Should Provide](#information-api-creators-should-provide)
+3. [APIs in Software Testing](#apis-in-software-testing)
 
 
 ### APIs
@@ -22,7 +30,7 @@ Application Programming Interface (API) is a technology used to facilitate commu
 
 A good example which demonstrates what an API is in a simple way that doesn’t relate to the IT world would be:
 
-`In a restaurant, you (the API consumer) choose a dish from the menu (the API documentation) and give your order, with any special requests, to the waiter (the API). The waiter communicates your order to the kitchen (the API server), where the chef (the server’s business logic) prepares the dish. Once ready, the waiter brings it back to your table.`
+>In a restaurant, you (the API consumer) choose a dish from the menu (the API documentation) and give your order, with any special requests, to the waiter (the API). The waiter communicates your order to the kitchen (the API server), where the chef (the server’s business logic) prepares the dish. Once ready, the waiter brings it back to your table.
 
 The waiter acts as the "middleman," just like an API, transferring your request to the server and delivering the response back to you, all without you needing to interact with the kitchen directly.
 
@@ -37,9 +45,10 @@ Caching is another benefit of REST APIs, improving performance due to their ligh
 A REST API (Representational State Transfer API) consists of several key components that facilitate communication between clients (like web or mobile apps) and servers. Here’s a breakdown of its core components:
 
 ## 1. Resources (Endpoints)
-Resources: Resources are the main entities of data that an API provides access to, such as users, posts, or products.
+Resources: Resources are the main entities of data that an API provides access to, such as **users**, **posts**, or **products**.
 
-Endpoints: Each resource has a unique URL (endpoint) where it can be accessed, usually following a predictable structure, such as https://api.example.com/users.
+Endpoints: Each resource has a unique URL (endpoint) where it can be accessed, usually following a predictable structure, such as 
+> https://api.example.com/users.
 
 ## 2. HTTP Methods
 
@@ -77,7 +86,8 @@ Request Payload: Data sent by the client, especially for POST and PUT requests, 
 Response Payload: Data returned by the server, which could include information about the requested resource, status, or error messages.
 
 ## 6. Query Parameters and Path Parameters
-Query Parameters: Appended to the URL to filter or specify data, such as https://api.example.com/users?role=admin.
+Query Parameters: Appended to the URL to filter or specify data, such as 
+>https://api.example.com/users?role=admin.
 
 Path Parameters: Variables within the endpoint path, usually representing specific resource IDs (e.g., GET /users/1 to access user with ID 1).
 ## 7. Authentication and Authorization
