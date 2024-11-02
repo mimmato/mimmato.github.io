@@ -36,10 +36,13 @@ The waiter acts as the "middleman," just like an API, transferring your request 
 
 ## REST
 
-I will primarily review APIs in the context of RESTful APIs due to their widespread use in web services today. Some benefits of REST APIs include ease of use, simplicity, and standardization, as users do not need to worry about the state or format of the data request. REST APIs are also easily scalable and stateless, meaning changes can be applied without users needing to track the data’s state.
+I will primarily review APIs in the context of RESTful APIs due to their widespread use in web services today. 
+
+**RE**presentational **S**tate **T**ransfer API (REST API) is a lightweight API which allows for software to communicate via [HTTP Methods](#2-http-methods) while data is processed in formats like JSON, XML, HTML etc.
+
+Some benefits of REST APIs include ease of use, simplicity, and standardization, as users do not need to worry about the state or format of the data request. REST APIs are also easily scalable and stateless, meaning changes can be applied without users needing to track the data’s state.
 
 Caching is another benefit of REST APIs, improving performance due to their lightweight nature.
-
 
 ## Components of a REST API
 A REST API (Representational State Transfer API) consists of several key components that facilitate communication between clients (like web or mobile apps) and servers. Here’s a breakdown of its core components:
