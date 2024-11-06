@@ -122,3 +122,5 @@ API creators should provide detailed information on the following:
 
 
 ### APIs in Software Testing
+
+I will be expanding on this paragraph with real life examples of the role that QA or testers play when dealing with APIs.
