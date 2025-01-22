@@ -49,6 +49,7 @@ public class Car1 {
 }
 ```
 
+Testing push to github and actions after building jekyll 
 
 ## What is a Java Method?
 
@@ -56,7 +57,7 @@ A Method or Function is a piece of code defined in a program. It contains a set 
 
 The following image illustrates the anatomy of a Java Class and the contained Java Main method followed by a statement:
 
-![alt text](httpatomoreillycomsourceoreillyimages2248125.png.jpg)
+![Image](/github-pages/mimmato.github.io/assets/img/classAnatomy.jpg)
 
 reference: 
 *Kathy Sierra and Bert Bates. 2005. Head First Java, 2nd Edition. O'Reilly & Associates, Inc., USA.*
@@ -76,17 +77,6 @@ public class Car1 {
     public static void main(String[] args) {
     }
 
-
-
-
-
-
-
-
-
-
-
-![alt text](httpatomoreillycomsourceoreillyimages2248117.png.jpg)
 
 The benefits of using or defining methods include:
 
