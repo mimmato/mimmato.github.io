@@ -1,17 +1,114 @@
 ---
-title: Java
-date: 2024-11-02 00:00:00 +0800
+title: Java Method, Class & Constructor
+date: 2025-01-22 00:00:00 +0800
 categories: [Learning]
-tags: [java, programming]     # TAG names should always be lowercase
+tags: [java, programming, method, class, constructor]     # TAG names should always be lowercase
 ---
 
-In this post, I will explore Java, theoretical concepts, my local setup and will also share some thoughts on programming with Java as a complete beginner. I am starting a QA Automation course at a local academy which will also cover Java programming, however, the information I will share here will mostly be based on my personal research. 
+## Java Class 
 
-One the most recommended paths to take when starting off as a beginner in programming and Java is the Mooc.fi course on learning Java (https://java-programming.mooc.fi/). I will  try to update this blog post as I advance through the course. 
+A class in Java is the fundamental building block of an application. Each class typically resides in its own .java file, and the file name should match the class name.
 
-## Why Java?
+Classes are organized into packages, which provide a way to group related classes together. Java's package structure mirrors the file system, making it easier to manage large applications.
 
-This section will cover information about why Java is the preferred language in QA...
+Below is a representation of how classes are structured in a typical Java project:
+
+#### **Directory Structure Example**
+
+<div style="display: flex; align-items: flex-start;">
+  <pre style="margin-right: 20px;">
+src/
+└── package1/
+    ├── Car1.java
+    ├── Car2.java
+    └── Car3.java
+└── package2/
+    ├── Dog1.java
+    ├── Dog2.java
+    └── Dog3.java
+└── package3/
+    ├── Class1.java
+    ├── Class2.java
+    └── Class3.java
+  </pre>
+  <div>
+    <strong>Definitions:</strong>
+    <ul>
+      <li><strong>src/</strong>: The root directory that holds all the packages.</li>
+      <li><strong>Packages</strong>: Each package (e.g., package1, package2, etc.) holds related classes.</li>
+      <li><strong>Class Files</strong>: Each class file (e.g., Car1.java, Dog1.java, etc.) contains a class definition.</li>
+    </ul>
+  </div>
+</div>
+
+Using `Car1.java` as an example, you will find that the class is defined as so in the beginning of the Car1.java file:
+
+```
+public class Car1 {
+
+}
+```
+
+
+## What is a Java Method?
+
+A Method or Function is a piece of code defined in a program. It contains a set of instructions used to complete a task and is executed when called upon. A good example is the main method. It is the starting point for any Java program or class. 
+
+The following image illustrates the anatomy of a Java Class and the contained Java Main method followed by a statement:
+
+![alt text](httpatomoreillycomsourceoreillyimages2248125.png.jpg)
+
+reference: 
+*Kathy Sierra and Bert Bates. 2005. Head First Java, 2nd Edition. O'Reilly & Associates, Inc., USA.*
+
+Continuing with the `Car1.java` file example, you will find that within the class defined as Car1, we now have our `Main` method initialized, followed by a statement:
+
+```
+public class Car1 {
+    public static void main(String[] args) {
+        System.out.println("This is the main method of the Car1 class.");
+    }
+}
+```
+
+#### Main Method syntax:
+
+    public static void main(String[] args) {
+    }
+
+
+
+
+
+
+
+
+
+
+
+![alt text](httpatomoreillycomsourceoreillyimages2248117.png.jpg)
+
+The benefits of using or defining methods include:
+
+- Code resusability 
+- Code
+- Code readbility 
+
+
+Code structure:
+
+Source file (src) -> class file -> method -> statement 
+
+
+Method overloading 
+
+
+### Syntax 
+
+
+
+## Java Method Syntax
+
 
 
 
