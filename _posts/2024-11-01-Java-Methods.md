@@ -57,7 +57,9 @@ A Method or Function is a piece of code defined in a program. It contains a set 
 
 The following image illustrates the anatomy of a Java Class and the contained Java Main method followed by a statement:
 
-![Image](/github-pages/mimmato.github.io/assets/img/classAnatomy.jpg)
+<!-- ![Image](/github-pages/mimmato.github.io/assets/img/classAnatomy.jpg) -->
+![Image](assets/img/classAnatomy.jpg)
+
 
 reference: 
 *Kathy Sierra and Bert Bates. 2005. Head First Java, 2nd Edition. O'Reilly & Associates, Inc., USA.*
