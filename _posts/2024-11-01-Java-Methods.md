@@ -41,32 +41,47 @@ src/
   </div>
 </div>
 
+#### Class initialization & syntax
+
 Using `Car1.java` as an example, you will find that the class is defined as so in the beginning of the Car1.java file:
 
-```
+```java
 public class Car1 {
-
+    // This is an example of a class in Java
 }
 ```
 
-Testing push to github and actions after building jekyll 
+**Definitions:**
 
-## What is a Java Method?
+
+- **`public`**: The access modifier. It makes this class accessible from anywhere.
+- **`class`**: The keyword used to declare a class in Java.
+- **`Car1`**: The name of the class. It must match the file name (Car1.java).
+- **`{ }`**: The braces enclose the body of the class, where fields, methods, constructors, and other members are defined.
+
+Classes can only use one of two modifiers:
+
+- **`public`**: The class is accessible by any other class
+- **`default`**: The class is only accessible by classes in the same package. This is used when you **don't** specify a modifier. 
+
+
+
+## Java Method
 
 A Method or Function is a piece of code defined in a program. It contains a set of instructions used to complete a task and is executed when called upon. A good example is the main method. It is the starting point for any Java program or class. 
 
 The following image illustrates the anatomy of a Java Class and the contained Java Main method followed by a statement:
 
-<!-- ![Image](/github-pages/mimmato.github.io/assets/img/classAnatomy.jpg) -->
 ![Image](assets/img/classAnatomy.jpg)
 
-
-reference: 
+image source: 
 *Kathy Sierra and Bert Bates. 2005. Head First Java, 2nd Edition. O'Reilly & Associates, Inc., USA.*
+
+#### Main Method initialization & syntax:
 
 Continuing with the `Car1.java` file example, you will find that within the class defined as Car1, we now have our `Main` method initialized, followed by a statement:
 
-```
+```java
 public class Car1 {
     public static void main(String[] args) {
         System.out.println("This is the main method of the Car1 class.");
@@ -74,110 +89,22 @@ public class Car1 {
 }
 ```
 
-#### Main Method syntax:
+**Definitions:**
 
-    public static void main(String[] args) {
-    }
+- **`public`**: This is an **access modifier**, indicating that the method can be accessed from outside the class (i.e., it is publicly accessible).
+
+- **`static`**: This keyword means that the method belongs to the class itself rather than instances of the class. It can be called without creating an object of the class.
+
+- **`void`**: This is the **return type** of the method. `void` means the method doesn't return any value.
+
+- **`main`**: This is the **name** of the method. In this case, it's the entry point of a Java application, meaning this method is executed first when the program runs.
+
+- **`(String[] args)`**: These are the **parameters** of the method. Here, `String[]` defines an array of `String` objects that can be passed to the method. `args` is the name of this array, and it allows command-line arguments to be passed to the program.
+
+Other parameters and examples
 
 
-The benefits of using or defining methods include:
 
-- Code resusability 
-- Code
-- Code readbility 
-
-
-Code structure:
-
-Source file (src) -> class file -> method -> statement 
 
 
 Method overloading 
-
-
-### Syntax 
-
-
-
-## Java Method Syntax
-
-
-
-
-## Printing:
-
-Basic syntax
-
-`System.out.println("Hello world!");`
-
-Common shortcuts used in IDEs like IntelliJ and NetBeans:
-
-`sout` + `TAB`
-
-## Reading input:
-
-#### Scanner tool:
-
-`import java.util.Scanner;`
-
-##### Scanner tool method:
-
-`scanner.nextLine()`
-
-## Concatenation:
-
-## Strings:
-
-String literal
-String variable
-
-## Reading Strings:
-
-## Variable types in Java:
-
-String
-double
-int
-boolean
-
-
-
-command.valueOf
-
-Integer.valueOf
-Boolean.valueOf
-Double.valueOf
-
-converting strings 
-
-
- if the program handles both the sum of the numbers and their total count as integers, one (or both) of the variables should be casted to a floating-point number by multiplying it by 1.0 before the division.
-
-
-## Conditional statements and conditional operation
-
-
-Strings equals
-
-The equals command is written after a string by attaching it to the string to be compared with a dot. The command is given a parameter, which is the string that the variable will be compared against. If the string variable is being directly compared with a string, then the string can be placed inside the parentheses of the equals-command within quotation marks. Otherwise, the name of the string variable that holds the string to be compared is placed inside the parentheses.
-
-
-    > greater than
-    >= greater than or equal to
-    < less than
-    <= less than or equal to
-    == equal to
-    != not equal to
-
-
-
-Logical Operators
-
-
-
-
-## Loops
-
-
-
-## Primitive types (variables)
