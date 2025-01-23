@@ -113,7 +113,7 @@ The following is meant to illustrate other parts of the Method signature and the
     protected static void main ( String[] args) {}
 ```
 
-**`Return type`** : Other than `void`, the return type can be specified as of a specific <u>primitive</u> data type (int, char, short etc.) or non-primitive  (String, ArrayList, HashMap etc.).
+**`Return type`** : Other than `void`, the return type can be specified as of a specific <u>primitive</u> data type (int, char, short etc.) or <u>non-primitive</u>  (String, ArrayList, HashMap etc.).
 The following example illustrates how a new method named `carSpeed();` is initialized within the main method. `carSpeed();` can now have its return type specified as `String`:
 
 ```java
@@ -130,7 +130,7 @@ public static String carSpeed() {
 }
 ```
 
-**`return keyword`**: following the declaration of a return type different from `void`,  the `return` keyword is used within the body of a new method to return its value or result. You can refer to the previous example. 
+**`return` keyword**: following the declaration of a return type different from `void`,  the `return` keyword is used within the body of a new method to return its value or result. You can refer to the previous example. 
 
 **`Method name`** : written in camel case when using multiple words, method names are specified after the return type and before the parameters list:
 
@@ -169,7 +169,7 @@ public class Car1 {
 ```
 Java uses built-in Exceptions and user-defined Exceptions. The above example illustrates the usage of a built-in Exception named **Exception** within the main method.
 
-**`throw keyword`** : the keyword is needed within the body method and when an exception is specified within its signature in order for the instructions to be completed. 
+**`throw` keyword** : the keyword is needed within the body method and when an exception is specified within its signature in order for the instructions to be completed. 
 
 
 **`Method body`** : enclosed in curly braces `{}`. This is where all statements of the set method goes:
@@ -187,6 +187,48 @@ public class Car1 {
 
 #### Method overloading 
 
+## Java object
 
 ## Java Constructor
 
+In Java, a **constructor** is a special type of method that is called when an object of the class is created. Its purpose is to initialize the object's state.
+
+Example with Car1 `class` and `main` method, followed by the Car1 `constructor`:
+
+
+```java
+public class Car1 {
+    public static void main(String[] args) {
+
+        // Create a Car1 object using the constructor
+        Car1 myCar = new Car1("Toyota");
+        System.out.println("Car model: " + myCar.model);
+    }
+
+    private String model;
+
+    // Constructor
+    public Car1(String model) {
+        this.model = model;
+    }
+}
+```
+
+**Definitions:**
+
+- **`public`**: This is the **access modifier**, indicating that the constructor can be accessed from outside the class.
+
+- **`Car1`**: This is the **name of the constructor**, which must match the class name.
+
+- **`(String model)`**: These are the **parameters** of the constructor, allowing the model to be passed during object creation.
+
+- **`this.model = model;`**: This line initializes the object's model using the constructor's parameter.
+
+- **`main Method`**: The entry point of the program, which creates an object and prints its model.
+
+**`this` keyword**:
+
+
+
+
+ 
