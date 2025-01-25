@@ -184,7 +184,7 @@ public class Car1 {
 #### Method overloading 
 Method overloading is used when you want to bring more functionality out of the same method. It is important to note that to overload a method, you must:
 - preserve the method name throughout your declarations
-- ensure that the method parameters differ each type the method is declared
+- ensure that the method parameters differ each time the method is declared
 
 Let's take the `carSpeed();` method we declared previously as an example and overload it:
 
@@ -221,7 +221,8 @@ public static String carSpeed(int speed, String model) {
 ```
 
 example output:
-```out
+
+```
 First declaration of carSpeed(); without arguments in the parameters list.
 This will not return anything as there are no method parameters specified.
 -------------------------
@@ -365,9 +366,9 @@ Car model: Honda
 
 If `this.model = model;` is not defined then our expected output would be **null** because the instance variable (**private String model;**) by that same name holds no value.
 
-##
+##  &nbsp;
 #### Summary
-##
+##  &nbsp;
 
 So far, we have went over **classes**, **objects**, **methods** & **constructors**. We have now defined the structure of applications using classes (blueprints) to create objects (instances), and define methods (actions) for the objects to perform; while **constructors** help us initialize objects efficiently, and manage underlying class attributes.
 
