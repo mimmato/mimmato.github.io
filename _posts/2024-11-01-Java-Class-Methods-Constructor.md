@@ -7,7 +7,7 @@ tags: [java, programming, method, class, constructor]     # TAG names should alw
 
 ## Java Class and java file
 
-A class in Java is the fundamental building block of an application. Each class typically resides in its own .java file, and the file name should match the class name.
+A class in Java is the fundamental building block of an application. Each class typically resides in its own .java file, while the file name should match the class name.
 
 Classes are organized into packages, which provide a way to group related classes together. Java's package structure mirrors the file system, making it easier to manage large applications.
 
@@ -34,7 +34,7 @@ src/
   <div>
     <strong>Definitions:</strong>
     <ul>
-      <li><strong>src/</strong>: The root directory that holds all the packages.</li>
+      <li><strong>src/</strong>: The root directory that holds all packages.</li>
       <li><strong>Packages</strong>: Each package (e.g., package1, package2, etc.) holds related classes.</li>
       <li><strong>Class Files</strong>: Each class file (e.g., Car1.java, Dog1.java, etc.) contains a class definition.</li>
     </ul>
@@ -79,7 +79,7 @@ image source:
 
 #### Main Method declaration, signature & syntax:
 
-An example of a method is the main method. It is the special type of method used as a starting point for any Java program or class. Continuing with the `Car1.java` file example, you will find that within the class defined as Car1, we now have our `Main` method initialized, followed by a statement:
+An example of a method is the main method. It is a special type of method used as a starting point for any Java program or class. Continuing with the `Car1.java` file example, you will find that within the class defined as Car1, we now have our `Main` method initialized, followed by a statement:
 
 ```java
 public class Car1 {
