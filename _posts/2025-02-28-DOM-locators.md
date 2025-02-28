@@ -4,7 +4,6 @@ date: 2025-02-28 00:00:00 +0800
 categories: [Learning]
 tags: [locators, DOM ]     # TAG names should always be lowercase
 ---
-# DOM and Locators
 
 ## 1. DOM (Document Object Model)
 
