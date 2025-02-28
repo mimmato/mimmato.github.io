@@ -338,7 +338,7 @@ We no longer need to hardcode the value of our attribute when defining it, but c
         System.out.println("Car model: " + myCar.model);
 ```
 
-**`this` keyword**: In the context of what we know so far (i.e. classes, methods, objects, constructors), we will use the **`this`** keyword when defining attributes within constructors to later refer to the object's variables. Using this keyword would also to avoid mistakes when calling out instance and local variables that share the same name. 
+**`this` keyword**: In the context of what we know so far (i.e. classes, methods, objects, constructors), we will use the **`this`** keyword when defining attributes within constructors to later refer to the object's variables. Using `this` keyword would allow us also to avoid mistakes when calling out instance and local variables that share the same name. 
 
 ```java
 public class Car1 {
