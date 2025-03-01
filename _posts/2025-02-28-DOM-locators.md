@@ -99,7 +99,7 @@ As there are not as many elements, in the above example, we can go about locatin
 
 The most obvious and straightforward way to locate a tag is using its name. So, if we are to locate the header tag, then we will simply type in `“h1”` in our browser inspect window. This would also be specified as `By.tagName("h1")` when typing our statement in Selenium:
 
-![Image](assets/img/byTagName)
+![Image](assets/img/byTagName.png)
 
 Another way is to use XPath expressions:
 
@@ -107,7 +107,7 @@ Another way is to use XPath expressions:
 By.xpath("//h1")
 ```
 
-![Image](assets/img/byXpath)
+![Image](assets/img/byXpath.png)
 
 The same results can also be achieved using a CSS selector, but I will not go into further details as our HTML example is limited to elements of the DOM that do not have attributes or other components to work with.
 Both CSS and XPath locators are the preferred techniques for finding elements of the DOM as they offer a lot of flexibility when querying. I will focus on using XPath as I find it more intuitive when searching for data.
