@@ -22,6 +22,7 @@ You may also refer to the [“DOM and locators”](https://mimmato.github.io/pos
 6. Tables
 7. Alert Boxes
 8. Windows and Tabs
+9. iFrames
 
 ---
 
