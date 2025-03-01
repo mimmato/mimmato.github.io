@@ -212,7 +212,7 @@ This ensures seamless interaction with pop-up windows or new browser tabs.
 
 In this article, we will review Web Elements in the context of Selenium’s WebDriver and as part of the DOM structure. We will go over the following list of web elements and review their limitations, rules, necessary methods, and other considerations when interacting with them.
 
-You may also refer to the [“DOM and locators”]( _posts/2025-02-28-DOM-locators.md) article for more information about the Document Object Model and locators for finding web elements.
+You may also refer to the [“DOM and locators”](https://mimmato.github.io/posts/DOM-locators/) article for more information about the Document Object Model and locators for finding web elements.
 
 ### List of Web Elements:
 
